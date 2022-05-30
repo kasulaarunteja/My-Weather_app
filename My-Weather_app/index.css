@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 500px;
+  padding: 50px;
+  grid-gap: 50px;
+}
+
+#search {
+  display: flex;
+  height: 40px;
+  margin: auto;
+  width: 50%;
+  justify-content: space-around;
+}
+
+#search>input {
+  width: 70%;
+  border-radius: 20px;
+}
+
+#search>button {
+  width: 25%;
+  border-radius: 10px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#showdata {
+  width: 42%;
+  height: 460px;
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+#showdata>p {
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(11, 130, 163);
+}
+
+#map {
+  width: 42%;
+  height: 460px;
+  margin-right: 50px;
+}
+
+/* css for 6 days of wether  */
+
+#showresults {
+  display: grid;
+  border: 1px solid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 10px;
+  grid-gap: 10px;
+}
+
+#showresults>div {
+  display: grid;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(50, 142, 99);
+  border-radius: 5px;
+}
+
+#showresults>div>img {
+  margin: auto;
+}
